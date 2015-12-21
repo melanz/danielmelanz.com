@@ -514,10 +514,23 @@
 					<li><a href="#" data-filter=".portfolio-type1">Rigid</a></li>
 					<li><a href="#" data-filter=".portfolio-type2">Flexible</a></li>
 				</ul>
+				
 			
 				<!-- Featured Portfolio items -->
 				<div class="row" id="portfolio-items">
 				
+					<div class="span3 portfolioitem portfolio-type2">
+						<img src="./projects/rockyDitch/thumb_rockyDitch.png" alt="">
+						<div class="portfolioitem-hoverinfo">
+							<h3>Project 10</h3>
+							<p>Gauging Military Vehicle Mobility Through Many-Body Dynamics Simulation</p>
+							<div class="portfolioitem-actions">
+								<a href="./projects/rockyDitch/rockyDitch.jpg" class="tips img-circle lightbox" title="Preview image" data-placement="bottom" data-fancybox-group="portfolioimages"><span class="glyphicons white zoom_in"><i></i></span></a>
+								<a href="#portfolioitem-10" class="tips more-info img-circle" title="View Project" data-placement="bottom"><span class="glyphicons white share"><i></i></span></a>
+							</div>
+						</div>
+					</div><!--/portfolioitem-->
+					
 					<div class="span3 portfolioitem portfolio-type2">
 						<img src="./projects/catchANCF/thumb_catch.png" alt="">
 						<div class="portfolioitem-hoverinfo">
@@ -635,6 +648,26 @@
 					<div class="span9">
 			
 						<a href="#" class="btn btn-primary hidden" id="portfolio-back">&larr; Back to Portfolio List</a>
+						
+						<!-- This is a Portfolio item -->
+						<div class="portfolioitem-content hidden" id="portfolioitem-10">
+							<img src="./projects/rockyDitch/rockyDitch.jpg" alt="">
+							<h2 class="primary-color">Project 9</h2>
+							
+                                <h3>Gauging Military Vehicle Mobility Through Many-Body Dynamics Simulation</h3>
+                                <p>Objective: Despite the integral role that off-road vehicles play in combat and military operations, researchers do not currently have the ability to accurately (i) estimate vehicle operational parameters such as forces, torques, and sinkage that a wheel or track on a vehicle experiences, (ii) investigate the interaction that occurs between a wheel/track and soft soil, and (iii) simulate a ground vehicle’s ability to navigate complex off- road terrain. Deformable terrain models that complement the fidelity of present day vehicle and tire models have been lacking due to the complexity of soil behavior. In the light of this discussion, this contribution describes a modeling, simulation, and visualization framework, called Chrono, aimed at enabling high performance, physics-based, analysis of ground vehicle mobility.</p>
+                                <p>Method: Project Chrono is an open-source general purpose simulator for large-scale, three-dimensional, multibody dynamics problems. The core of Project Chrono is the Chrono::Engine C++ middleware, a powerful object- oriented set of libraries whose application program interface (API) can be freely used to develop simulation software . Specifically, the code is designed to support the simulation of very large systems such as those encountered in granular dynamics, where the number of interacting elements can be in the millions. Figure 1 illustrates the architecture of Chrono. Based on third–party, open source, and in-house developed code, it represents an end-to-end solution to large-scale dynamics problems. It relies on CUDA for GPU computing, OpenMP for many-core shared memory computing, and MPI for multi-socket distributed memory computing to implement fine, medium, and coarse-grain parallelism across the modeling, simulation, and visualization stages of an analysis. Its foundation consists of five basic components that provide support for: (1) modeling; (2) numerical solution; (3) proximity computation and contact detection; (4) domain decomposition and inter-domain communication; and (5) pre/post-processing.</p>
+                                <p>Contributors: Daniel Melanz, Hammad Mazhar, Dan Negrut</p>
+                                <p><a href="https://vimeo.com/82120438">Video 1</a>, <a href="https://vimeo.com/73472344">Video 2</a>, <a href="https://vimeo.com/73258059">Video 3</a></p>
+							
+							
+							<ul class="pager">
+								<li class="previous"><a href="#portfolioitem-1" class="">&larr; Previous</a></li>
+								<li class="next"><a href="#portfolioitem-8" class="">Next &rarr;</a></li>
+							</ul>
+						
+						</div>
+						<!-- /Portfolio item -->	
 						
 						<!-- This is a Portfolio item -->
 						<div class="portfolioitem-content hidden" id="portfolioitem-9">
