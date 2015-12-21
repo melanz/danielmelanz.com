@@ -520,6 +520,42 @@
 				<div class="row" id="portfolio-items">
 
 					<div class="span3 portfolioitem portfolio-type1">
+						<img src="./projects/fullVehicleDEM/thumb_fullVehicleDEM.png" alt="">
+						<div class="portfolioitem-hoverinfo">
+							<h3>Project 15</h3>
+							<p>Investigating Through Simulation the Mobility of Full-Scale Vehicles on Discrete Granular Terrain</p>
+							<div class="portfolioitem-actions">
+								<a href="./projects/fullVehicleDEM/fullVehicleDEM.png" class="tips img-circle lightbox" title="Preview image" data-placement="bottom" data-fancybox-group="portfolioimages"><span class="glyphicons white zoom_in"><i></i></span></a>
+								<a href="#portfolioitem-15" class="tips more-info img-circle" title="View Project" data-placement="bottom"><span class="glyphicons white share"><i></i></span></a>
+							</div>
+						</div>
+					</div><!--/portfolioitem-->
+					
+					<div class="span3 portfolioitem portfolio-type1">
+						<img src="./projects/chronoVehicle/thumb_chronoVehicle.png" alt="">
+						<div class="portfolioitem-hoverinfo">
+							<h3>Project 14</h3>
+							<p>Template-Based Modeling and Simulation of Vehicle Systems</p>
+							<div class="portfolioitem-actions">
+								<a href="./projects/chronoVehicle/chronoVehicle.png" class="tips img-circle lightbox" title="Preview image" data-placement="bottom" data-fancybox-group="portfolioimages"><span class="glyphicons white zoom_in"><i></i></span></a>
+								<a href="#portfolioitem-14" class="tips more-info img-circle" title="View Project" data-placement="bottom"><span class="glyphicons white share"><i></i></span></a>
+							</div>
+						</div>
+					</div><!--/portfolioitem-->
+					
+					<div class="span3 portfolioitem portfolio-type1">
+						<img src="./projects/terramechanicsValidation/thumb_terramechanicsValidation.png" alt="">
+						<div class="portfolioitem-hoverinfo">
+							<h3>Project 13</h3>
+							<p>Experimental Validation of a Differential Variational Inequality-Based Approach for Handling Friction and Contact in Vehicle/Granular-Terrain Interaction</p>
+							<div class="portfolioitem-actions">
+								<a href="./projects/terramechanicsValidation/terramechanicsValidation.png" class="tips img-circle lightbox" title="Preview image" data-placement="bottom" data-fancybox-group="portfolioimages"><span class="glyphicons white zoom_in"><i></i></span></a>
+								<a href="#portfolioitem-13" class="tips more-info img-circle" title="View Project" data-placement="bottom"><span class="glyphicons white share"><i></i></span></a>
+							</div>
+						</div>
+					</div><!--/portfolioitem-->
+					
+					<div class="span3 portfolioitem portfolio-type1">
 						<img src="./projects/dynamicBekker/thumb_dynamicBekker.png" alt="">
 						<div class="portfolioitem-hoverinfo">
 							<h3>Project 12</h3>
@@ -672,6 +708,62 @@
 					<div class="span9">
 			
 						<a href="#" class="btn btn-primary hidden" id="portfolio-back">&larr; Back to Portfolio List</a>
+
+						<!-- This is a Portfolio item -->
+						<div class="portfolioitem-content hidden" id="portfolioitem-15">
+							<img src="./projects/chronoVehicle/chronoVehicle.png" alt="">
+							<h2 class="primary-color">Project 15</h2>
+							
+                                <h3>Investigating Through Simulation the Mobility of Full-Scale Vehicles on Discrete Granular Terrain</h3>
+                                <p>Objective: Despite the integral role that off-road vehicles play in combat and military operations, researchers do not currently have the ability to accurately (i) estimate vehicle operational parameters such as forces, torques, and sinkage that a wheel or track on a vehicle experiences, (ii) investigate the interaction that occurs between a wheel/track and soft soil, and (iii) simulate a ground vehicle’s ability to navigate complex off- road terrain. Deformable terrain models that complement the fidelity of present day vehicle and tire models have been lacking due to the complexity of soil behavior. In the light of this discussion, this contribution describes a modeling, simulation, and visualization framework, called Chrono, aimed at enabling high performance, physics-based, analysis of ground vehicle mobility.</p>
+                                <p>Method: Project Chrono is an open-source general purpose simulator for large-scale, three-dimensional, multibody dynamics problems. The core of Project Chrono is the Chrono::Engine C++ middleware, a powerful object- oriented set of libraries whose application program interface (API) can be freely used to develop simulation software . Specifically, the code is designed to support the simulation of very large systems such as those encountered in granular dynamics, where the number of interacting elements can be in the millions. Based on third–party, open source, and in-house developed code, it represents an end-to-end solution to large-scale dynamics problems. It relies on CUDA for GPU computing, OpenMP for many-core shared memory computing, and MPI for multi-socket distributed memory computing to implement fine, medium, and coarse-grain parallelism across the modeling, simulation, and visualization stages of an analysis. Its foundation consists of five basic components that provide support for: (1) modeling; (2) numerical solution; (3) proximity computation and contact detection; (4) domain decomposition and inter-domain communication; and (5) pre/post-processing.</p>
+                                <p>Contributors: Daniel Melanz, Hammad Mazhar, Radu Serban, Dan Negrut</p>
+								<p><a href="https://vimeo.com/142659745">Video 1</a>, <a href="https://vimeo.com/135975392">Video 2</a>, <a href="https://vimeo.com/142659736">Video 3</a></p>
+							
+							<ul class="pager">
+								<li class="previous"><a href="#portfolioitem-14" class="">&larr; Previous</a></li>
+							</ul>
+						
+						</div>
+						<!-- /Portfolio item -->
+						
+						<!-- This is a Portfolio item -->
+						<div class="portfolioitem-content hidden" id="portfolioitem-14">
+							<img src="./projects/chronoVehicle/chronoVehicle.png" alt="">
+							<h2 class="primary-color">Project 14</h2>
+							
+                                <h3>Template-Based Modeling and Simulation of Vehicle Systems</h3>
+                                <p>Objective: Built as a Chrono vertical application, Chrono::Vehicle is an open source (BSD-3 license) C++ middleware library focused on the modeling, simulation, and visualization of ground vehicles. Modeling of vehicle systems is done in a modular fashion, with a vehicle defined as an assembly of instances of various subsystems (suspension, steering, driveline, etc.). Flexibility in modeling is provided by adopting a template-based design. In Chrono::Vehicle, templates are parameterized models that define a particular implementation of a vehicle subsystem. As such, a template defines the basic modeling elements (bodies, joints, force elements), imposes the subsystem topology, prescribes the design parameters, and implements the common functionality for a given type of subsystem (e.g. suspension) particularized to a specific template (e.g. double wishbone). Wheeled vehicle subsystems include several types of suspension assemblies, steering and driveline mechanisms, wheels, brakes.</p>
+                                <p>Method: For easy incorporation in and inter-operability with third-party applications, Chrono::Vehicle is provided as a middleware library. System and subsystem templates are implemented through polymorphic classes and thus the library is extensible through C++ inheritance, allowing definition of new subsystems or new templates for existing subsystems. Systems and subsystems are defined with a three-layered C++ class hierarchy: (i) base abstract class for type (e.g. ChSuspension); (ii) derived, still abstract, class for specific template (e.g. ChDoubleWishbone); and (iii) concrete class that particularizes the template for a given vehicle (e.g. HMMWV DoubleWishboneFront). We provide two different types for the concrete classes that specify a template. The first one, providing maximum flexibility, is through user-defined classes which implement all virtual functions imposed by the corresponding template base class. While not part of the Chrono::Vehicle library itself, several examples of this approach are provided with the package. A more convenient approach, allowing for fast experimentation and parametric studies, is offered through a set of concrete template classes (part of the Chrono::Vehicle library) that specify the subsystem for a particular vehicle through specification data files in the JSON format.</p>
+                                <p>Contributors: Radu Serban, Daniel Melanz, Justin Madsen, Holger Haut, Michael Taylor, Dan Negrut</p>
+								<p><a href="https://vimeo.com/135973915">Video 1</a></p>
+							
+							<ul class="pager">
+								<li class="next"><a href="#portfolioitem-15" class="">Next &rarr;</a></li>
+								<li class="previous"><a href="#portfolioitem-13" class="">&larr; Previous</a></li>
+							</ul>
+						
+						</div>
+						<!-- /Portfolio item -->
+						
+						<!-- This is a Portfolio item -->
+						<div class="portfolioitem-content hidden" id="portfolioitem-13">
+							<img src="./projects/terramechanicsValidation/terramechanicsValidation.png" alt="">
+							<h2 class="primary-color">Project 13</h2>
+							
+                                <h3>Experimental Validation of a Differential Variational Inequality-Based Approach for Handling Friction and Contact in Vehicle/Granular-Terrain Interaction</h3>
+                                <p>Objective: The observation motivating this contribution was a perceived lack of expeditious deformable terrain models that can match in mobility analysis studies the level of fidelity delivered by today’s vehicle models. Typically, the deformable terrain-tire interaction has been modeled using finite element method (FEM), which continues to require prohibitively long analysis times owing to the complexity of soil behavior. Recent attempts to model deformable terrain have resorted to the use of the discrete element method (DEM) to capture the soil’s complex interaction with a wheeled vehicle. We assess herein a DEM approach that employs a complementarity condition to enforce non-penetration between colliding rigid bodies that make up the deformable terrain.</p>
+                                <p>Method: This contribution summarizes a validation study carried out in order to assess the predictive attribute of a DVI-based frictional contact model that is expected to handle deformable terrain problems in which the soil is represented using a large number of discrete elements. The DVI model is based on complementarity conditions for contact and differential inclusions for handling friction forces. The modeling methodology has been implemented in an open source dynamics engine called Chrono, which is used for soft soil ground vehicle mobility studies. The conclusion of this study is that the predictive attribute of the modeling methodology, as exposed by its implementation in Chrono, is good. Indeed, a unique set of solution and model parameters were used to match experimental data in three tests: granular material shearing, pressure sinkage, and drawbar pull at various wheel slip levels. The simulation times are larger than hoped for, yet it is not clear whether a penalty-based DEM approach would have yielded a numerical solution more expeditiously. This simulation performance aspect, along with a better understanding of the sensitivity of simulation results with respect to the shape and size of the elements present opportunities for future research.</p>
+                                <p>Contributors: Daniel Melanz, Paramsothy Jayakumar, Dan Negrut, Carmine Senatore, Karl Iagnemma</p>
+								<p><a href="https://vimeo.com/142659737">Video 1</a>, <a href="https://vimeo.com/131488792">Video 2</a>, <a href="https://vimeo.com/131488477">Video 3</a></p>
+							
+							<ul class="pager">
+								<li class="next"><a href="#portfolioitem-14" class="">Next &rarr;</a></li>
+								<li class="previous"><a href="#portfolioitem-12" class="">&larr; Previous</a></li>
+							</ul>
+						
+						</div>
+						<!-- /Portfolio item -->
 						
 						<!-- This is a Portfolio item -->
 						<div class="portfolioitem-content hidden" id="portfolioitem-12">
