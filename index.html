@@ -518,7 +518,31 @@
 			
 				<!-- Featured Portfolio items -->
 				<div class="row" id="portfolio-items">
-				
+
+					<div class="span3 portfolioitem portfolio-type1">
+						<img src="./projects/dynamicBekker/thumb_dynamicBekker.png" alt="">
+						<div class="portfolioitem-hoverinfo">
+							<h3>Project 12</h3>
+							<p>Comparison of Discrete Element Method and Traditional Modeling Methods for Steady-State Wheel-Terrain Interaction</p>
+							<div class="portfolioitem-actions">
+								<a href="./projects/dynamicBekker/dynamicBekker.png" class="tips img-circle lightbox" title="Preview image" data-placement="bottom" data-fancybox-group="portfolioimages"><span class="glyphicons white zoom_in"><i></i></span></a>
+								<a href="#portfolioitem-12" class="tips more-info img-circle" title="View Project" data-placement="bottom"><span class="glyphicons white share"><i></i></span></a>
+							</div>
+						</div>
+					</div><!--/portfolioitem-->
+					
+					<div class="span3 portfolioitem portfolio-type1">
+						<img src="./projects/wheelSoil/thumb_wheelSoil.png" alt="">
+						<div class="portfolioitem-hoverinfo">
+							<h3>Project 11</h3>
+							<p>Scalability of Classical Terramechanics Models for Lightweight Vehicle Applications Incorporating Stochastic Modeling and Uncertainty Propagation</p>
+							<div class="portfolioitem-actions">
+								<a href="./projects/wheelSoil/wheelSoil.png" class="tips img-circle lightbox" title="Preview image" data-placement="bottom" data-fancybox-group="portfolioimages"><span class="glyphicons white zoom_in"><i></i></span></a>
+								<a href="#portfolioitem-11" class="tips more-info img-circle" title="View Project" data-placement="bottom"><span class="glyphicons white share"><i></i></span></a>
+							</div>
+						</div>
+					</div><!--/portfolioitem-->
+					
 					<div class="span3 portfolioitem portfolio-type1">
 						<img src="./projects/rockyDitch/thumb_rockyDitch.png" alt="">
 						<div class="portfolioitem-hoverinfo">
@@ -648,6 +672,44 @@
 					<div class="span9">
 			
 						<a href="#" class="btn btn-primary hidden" id="portfolio-back">&larr; Back to Portfolio List</a>
+						
+						<!-- This is a Portfolio item -->
+						<div class="portfolioitem-content hidden" id="portfolioitem-12">
+							<img src="./projects/dynamicBekker/dynamicBekker.png" alt="">
+							<h2 class="primary-color">Project 12</h2>
+							
+                                <h3>Comparison of Discrete Element Method and Traditional Modeling Methods for Steady-State Wheel-Terrain Interaction</h3>
+                                <p>Objective: A simulation study was conducted to evaluate three terramechanics methods for predicting single wheel performance of small vehicles on granular terrain. Traditional Bekker-type terramechanics methods do not consider the soil profile, soil dynamics, or transient wheel dynamics, which can be important factors in vehicle performance. The ‘dynamic Bekker’ method treats the wheel as a free body and discretizes the soil into grid regions, which allows for multibody dynamics simulations on more complex soil profiles. Another option is to use the discrete element method (DEM), which makes fewer assumptions but requires significantly more computation time. Before these methods can be evaluated in dynamic conditions, they must first be tested in steady-state conditions.</p>
+                                <p>Method: Single-wheel experiments were performed on Mojave Martian Simulant to evaluate performance at various slip ratios. Similar tests were simulated using traditional Bekker, dynamic Bekker, and DEM. Each method was tuned to match direct shear and pressure-sinkage tests performed on the same soil. While Bekker-type methods only require curve-fitting to determine soil parameters, the discrete element method was tuned by simulating the soil tests with varying parameters. The results from this study show DEM can better predict wheel performance both qualitatively and quantitatively, though at a considerably higher computation cost.</p>
+                                <p>Contributors: William Smith, Daniel Melanz, Carmine Senatore, Karl Iagnemma, Huei Peng</p>
+								<p><a href="https://vimeo.com/80904605">Video 1</a></p>
+							
+							<ul class="pager">
+								<li class="previous"><a href="#portfolioitem-11" class="">&larr; Previous</a></li>
+								<li class="next"><a href="#portfolioitem-13" class="">Next &rarr;</a></li>
+							</ul>
+						
+						</div>
+						<!-- /Portfolio item -->
+						
+						<!-- This is a Portfolio item -->
+						<div class="portfolioitem-content hidden" id="portfolioitem-11">
+							<img src="./projects/wheelSoil/wheelSoil.png" alt="">
+							<h2 class="primary-color">Project 11</h2>
+							
+                                <h3>Scalability of Classical Terramechanics Models for Lightweight Vehicle Applications Incorporating Stochastic Modeling and Uncertainty Propagation</h3>
+                                <p>Objective: This project investigates the validity of commonly used terramechanics models for lightweight vehicle applications while accounting for experimental variability. This is accomplished by cascading uncertainty up to the point of wheel performance. Vehicle-terrain interaction is extremely complex, and thus models and simulation methods for vehicle mobility prediction are largely based on empirical data. Analytical methods are compared to experimental measurements of key operational parameters such as drawbar force, torque, and sinkage. Models of operational parameters ultimately depend on a small set of empirically determined soil parameters, each with an inherent uncertainty due to test variability.</p>
+                                <p>Method: The soil parameters associated with normal loads are determined by fitting the dimensionless form of Bekker’s equation to the pressure-sinkage test data. Similarly, the soil parameters associated with shear loads are determined by fitting Janosi-Hanamoto’s equation to the direct shear test data. An uncertainty model is used to propagate the soil parameter variability through to the wheel performance based on Wong and Reece. This commonly used analytical model is shown to be inaccurate as the envelope of model uncertainty does not lie within the experimental measures, suggesting that model improvements are required to accurately predict the performance of lightweight vehicles on deformable terrain.</p>
+                                <p>Contributors: Daniel Melanz, Paramsothy Jayakumar, Jamie MacLennan, Carmine Senatore, Karl Iagnemma</p>
+							
+							
+							<ul class="pager">
+								<li class="previous"><a href="#portfolioitem-10" class="">&larr; Previous</a></li>
+								<li class="next"><a href="#portfolioitem-12" class="">Next &rarr;</a></li>
+							</ul>
+						
+						</div>
+						<!-- /Portfolio item -->
 						
 						<!-- This is a Portfolio item -->
 						<div class="portfolioitem-content hidden" id="portfolioitem-10">
